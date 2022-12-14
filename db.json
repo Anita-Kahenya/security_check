@@ -2,107 +2,93 @@
     "tenants": [
         {
             "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
+            "house_number":1,
+            "name":"Sammy Maina",
+            "mobile_number": "0726441100",
+            "id_number": "28423991",
             "age": "40 years",
             "occupants": 5            
         },
         {
-            "id": 1,
-            "name":"Rawllings Tallam",
+            "id": 2,
+            "house_number":2,
+            "name":"Brian Ruto",
+            "mobile_number": "0707133167",
+            "id_number": "21624092",
+            "age": "35 years",
+            "occupants": 3            
+        },
+        {
+            "id": 3,
+            "house_number":3,
+            "name":"Julia Ochieng",
+            "mobile_number": "0720286220",
+            "id_number": "3328941",
+            "age": "53 years",
+            "occupants": 4            
+        },
+        {
+            "id": 4,
+            "house_number":4,
+            "name":"Moses Musau",
             "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
+            "id_number": "26429031",
+            "age": "38 years",
+            "occupants": 2            
+        },
+        {
+            "id": 5,
+            "house_number":5,
+            "name":"James Kioko",
+            "mobile_number": "0722560390",
+            "id_number": "14720551",
+            "age": "46 years",
+            "occupants": 6            
+        },
+        {
+            "id": 6,
+            "house_number":6,
+            "name":"Cyprian Kajos",
+            "mobile_number": "0768000284",
+            "id_number": "31458245",
+            "age": "33 years",
+            "occupants": 1            
+        },
+        {
+            "id": 7,
+            "house_number":7,
+            "name":"Evans Taparwiyang'",
+            "mobile_number": "0746241925",
+            "id_number": " 32572894",
+            "age": "29 years",
+            "occupants": 3            
+        },
+        {
+            "id": 8,
+            "house_number":8,
+            "name":"Jamal Hassan",
+            "mobile_number": "0727371199",
+            "id_number": "11644224",
+            "age": "57 years",
+            "occupants": 7            
+        },
+        {
+            "id": 9,
+            "house_number":9,
+            "name":"Elias Wakhutu",
+            "mobile_number": "0719304062",
+            "id_number": "29542779",
+            "age": "42 years",
             "occupants": 5            
         },
         {
-            "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
-            "occupants": 5            
-        },
-        {
-            "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
-            "occupants": 5            
-        },
-        {
-            "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
-            "occupants": 5            
-        },
-        {
-            "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
-            "occupants": 5            
-        },
-        {
-            "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
-            "occupants": 5            
-        },
-        {
-            "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
-            "occupants": 5            
-        },
-        {
-            "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
-            "occupants": 5            
-        },
-        {
-            "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
-            "occupants": 5            
-        },
-        {
-            "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
-            "occupants": 5            
-        },
-        {
-            "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
-            "occupants": 5            
-        },
-        {
-            "id": 1,
-            "name":"Rawllings Tallam",
-            "mobile_number": "0727371199",
-            "id_number": "34824020",
-            "age": "40 years",
-            "occupants": 5            
-        }
+            "id": 10,
+            "house_number":10, 
+            "name":"Alex Chelashaw",
+            "mobile_number": "0714612112",
+            "id_number": "30628331",
+            "age": "38 years",
+            "occupants": 3            
+        } 
     ]
 }
