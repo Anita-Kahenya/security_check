@@ -23,9 +23,15 @@ body {
 }
 
 #navbar input {
-    width: 200px;
+    width: 150px;
     border-color: rgb(113, 113, 124);
     border-radius: 3px;
+}
+
+#btn {
+    width: 70px;
+    height: 30px;
+    font-size: medium;
 }
 
 .card {
@@ -37,11 +43,22 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+#housenumber h6 {
+    border: 100px;
+    border-color: black;
+    background-color: black;
+    border-radius: 3px;
+    color: aliceblue;
+    padding: 2px;
+   
 }
 
 .card1 {
     width: 30pc;
-    height: 20pc;
+    height: 25pc;
     left: 25pc;
     margin-top: 2pc;
     margin-bottom: 2pc;
@@ -49,7 +66,7 @@ body {
 }
 
 #display h5 {
-    padding: 0.6pc;
+    padding: 0.5pc;
     color: rgb(113, 113, 124);
 }
 
@@ -69,4 +86,8 @@ footer a {
 
 #headd {
     color: rgb(113, 113, 124);
+}
+
+.hide {
+    display: none;
 }

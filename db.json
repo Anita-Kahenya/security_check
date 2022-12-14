@@ -2,7 +2,7 @@
     "tenants": [
         {
             "id": 1,
-            "house_number":1,
+            "house_name":"Berlin",
             "name":"Sammy Maina",
             "mobile_number": "0726441100",
             "id_number": "28423991",
@@ -11,7 +11,7 @@
         },
         {
             "id": 2,
-            "house_number":2,
+            "house_name":"Tokyo",
             "name":"Brian Ruto",
             "mobile_number": "0707133167",
             "id_number": "21624092",
@@ -20,7 +20,7 @@
         },
         {
             "id": 3,
-            "house_number":3,
+            "house_name":"Nairobi",
             "name":"Julia Ochieng",
             "mobile_number": "0720286220",
             "id_number": "3328941",
@@ -29,7 +29,7 @@
         },
         {
             "id": 4,
-            "house_number":4,
+            "house_name":"Denver",
             "name":"Moses Musau",
             "mobile_number": "0727371199",
             "id_number": "26429031",
@@ -38,7 +38,7 @@
         },
         {
             "id": 5,
-            "house_number":5,
+            "house_name":"Rio",
             "name":"James Kioko",
             "mobile_number": "0722560390",
             "id_number": "14720551",
@@ -47,7 +47,7 @@
         },
         {
             "id": 6,
-            "house_number":6,
+            "house_name":"Helsinki",
             "name":"Cyprian Kajos",
             "mobile_number": "0768000284",
             "id_number": "31458245",
@@ -56,7 +56,7 @@
         },
         {
             "id": 7,
-            "house_number":7,
+            "house_name":"Moscow",
             "name":"Evans Taparwiyang'",
             "mobile_number": "0746241925",
             "id_number": " 32572894",
@@ -65,7 +65,7 @@
         },
         {
             "id": 8,
-            "house_number":8,
+            "house_name":"London",
             "name":"Jamal Hassan",
             "mobile_number": "0727371199",
             "id_number": "11644224",
@@ -74,7 +74,7 @@
         },
         {
             "id": 9,
-            "house_number":9,
+            "house_name":"Madrid",
             "name":"Elias Wakhutu",
             "mobile_number": "0719304062",
             "id_number": "29542779",
@@ -83,7 +83,7 @@
         },
         {
             "id": 10,
-            "house_number":10, 
+            "house_name":"Munich", 
             "name":"Alex Chelashaw",
             "mobile_number": "0714612112",
             "id_number": "30628331",
