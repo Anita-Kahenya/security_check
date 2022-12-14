@@ -46,3 +46,8 @@ body {
     margin-top: 3pc;
     background-color: aliceblue;
 }
+
+#display h5 {
+    padding: 0.6pc;
+    color: rgb(64, 68, 68);
+}
