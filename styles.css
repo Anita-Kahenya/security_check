@@ -21,3 +21,28 @@ body {
     padding: 20px;
     font-weight: bolder;
 }
+
+#navbar input {
+    width: 200px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.card {
+    height: 80px;
+    text-align: center;
+}
+
+#housenumber {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.card1 {
+    width: 30pc;
+    height: 20pc;
+    left: 25pc;
+    margin-top: 3pc;
+    background-color: aliceblue;
+}
