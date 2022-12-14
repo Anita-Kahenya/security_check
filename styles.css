@@ -24,8 +24,8 @@ body {
 
 #navbar input {
     width: 200px;
-    border-color: black;
-    border-radius: 5px;
+    border-color: rgb(113, 113, 124);
+    border-radius: 3px;
 }
 
 .card {
@@ -43,11 +43,30 @@ body {
     width: 30pc;
     height: 20pc;
     left: 25pc;
-    margin-top: 3pc;
+    margin-top: 2pc;
+    margin-bottom: 2pc;
     background-color: aliceblue;
 }
 
 #display h5 {
     padding: 0.6pc;
-    color: rgb(64, 68, 68);
+    color: rgb(113, 113, 124);
+}
+
+footer {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+
+
+footer a {
+    text-decoration: none;
+}
+
+#headd {
+    color: rgb(113, 113, 124);
 }
