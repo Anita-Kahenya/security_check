@@ -44,16 +44,16 @@ body {
     justify-content: space-evenly;
     padding-top: 20px;
     margin-bottom: 100px;
+
 }
 
-#housenumber h6 {
+#housenumber h5 {
     border: 100px;
     border-color: black;
     background-color: black;
     border-radius: 3px;
-    color: aliceblue;
-    padding: 2px;
-   
+    color: rgb(240, 226, 226);
+    padding: 2px;  
 }
 
 .card1 {
@@ -63,9 +63,15 @@ body {
     margin-top: 2pc;
     margin-bottom: 2pc;
     background-color: aliceblue;
+    overflow-y: scroll;
+    box-shadow: 100px;
 }
 
-#display h5 {
+.card1::-webkit-scrollbar {
+    display: none;
+}
+
+#display h4 {
     padding: 0.5pc;
     color: rgb(113, 113, 124);
 }
@@ -88,6 +94,3 @@ footer a {
     color: rgb(113, 113, 124);
 }
 
-.hide {
-    display: none;
-}
