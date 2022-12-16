@@ -76,9 +76,17 @@ body {
     color: rgb(113, 113, 124);
 }
 
-#form {
-    align-items: center;
+#formDiv {
     display: flex;
+    align-items: center;
+    margin-left: 25pc;
+    padding: 0px 30px 30px;
+}
+
+#form {
+   text-align: center;
+   justify-content: space-around;
+   
 }
 
 footer {

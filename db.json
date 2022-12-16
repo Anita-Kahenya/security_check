@@ -1,115 +1,114 @@
 {
-    "tenants": [
-        {
-            "id": 1,
-            "house_name":"Berlin",
-            "name":"Sammy Maina",
-            "mobile_number": "0726441100",
-            "email":"sam.main@gmail.com",
-            "id_number": "28423991",
-            "age": "40 years",
-            "occupants": 5,
-            "visitors": "None"            
-        },
-        {
-            "id": 2,
-            "house_name":"Tokyo",
-            "name":"Brian Ruto",
-            "mobile_number": "0707133167",
-            "email":"brian.ruto@gmail.com",
-            "id_number": "21624092",
-            "age": "35 years",
-            "occupants": 3,
-            "visitors": "None"            
-        },
-        {
-            "id": 3,
-            "house_name":"Nairobi",
-            "name":"Julia Ochieng",
-            "mobile_number": "0720286220",
-            "email":"julia.ochieng@gmail.com",
-            "id_number": "3328941",
-            "age": "53 years",
-            "occupants": 4,
-            "visitors": "None"            
-        },
-        {
-            "id": 4,
-            "house_name":"Denver",
-            "name":"Moses Musau",
-            "mobile_number": "0727371199",
-            "email":"moses.musau@gmail.com",
-            "id_number": "26429031",
-            "age": "38 years",
-            "occupants": 2,
-            "visitors": "None"            
-        },
-        {
-            "id": 5,
-            "house_name":"Rio",
-            "name":"James Kioko",
-            "mobile_number": "0722560390",
-            "email":"james.kioko@gmail.com",
-            "id_number": "14720551",
-            "age": "46 years",
-            "occupants": 6,
-            "visitors": "None"            
-        },
-        {
-            "id": 6,
-            "house_name":"Helsinki",
-            "name":"Cyprian Kajos",
-            "mobile_number": "0768000284",
-            "email":"cyprian.kajos@gmail.com",
-            "id_number": "31458245",
-            "age": "33 years",
-            "occupants": 1,
-            "visitors": "None"            
-        },
-        {
-            "id": 7,
-            "house_name":"Moscow",
-            "name":"Evans Taparwiyang'",
-            "mobile_number": "0746241925",
-            "email":"evans.taparkwiyang@gmail.com",
-            "id_number": " 32572894",
-            "age": "29 years",
-            "occupants": 3,
-            "visitors": "None"            
-        },
-        {
-            "id": 8,
-            "house_name":"London",
-            "name":"Jamal Hassan",
-            "mobile_number": "0727371199",
-            "email":"jamal.hassan@gmail.com",
-            "id_number": "11644224",
-            "age": "57 years",
-            "occupants": 7,
-            "visitors": "None"            
-        },
-        {
-            "id": 9,
-            "house_name":"Madrid",
-            "name":"Elias Wakhutu",
-            "mobile_number": "0719304062",
-            "email":"elias.wakhutu@gmail.com",
-            "id_number": "29542779",
-            "age": "42 years",
-            "occupants": 5,
-            "visitors": "None"            
-        },
-        {
-            "id": 10,
-            "house_name":"Munich", 
-            "name":"Alex Chelashaw",
-            "mobile_number": "0714612112",
-            "email":"alex.chelashaw@gmail.com",
-            "id_number": "30628331",
-            "age": "38 years",
-            "occupants": 3,
-            "visitors": "None"            
-        }
-        
-    ]
+  "tenants": [
+    {
+      "id": 1,
+      "house_name": "Berlin",
+      "name": "Sammy Maina",
+      "mobile_number": "0726441100",
+      "email": "sam.main@gmail.com",
+      "id_number": "28423991",
+      "age": "40 years",
+      "occupants": 5,
+      "visitors": "None"
+    },
+    {
+      "id": 2,
+      "house_name": "Tokyo",
+      "name": "Brian Ruto",
+      "mobile_number": "0707133167",
+      "email": "brian.ruto@gmail.com",
+      "id_number": "21624092",
+      "age": "35 years",
+      "occupants": 3,
+      "visitors": "None"
+    },
+    {
+      "id": 3,
+      "house_name": "Nairobi",
+      "name": "Julia Ochieng",
+      "mobile_number": "0720286220",
+      "email": "julia.ochieng@gmail.com",
+      "id_number": "3328941",
+      "age": "53 years",
+      "occupants": 4,
+      "visitors": "None"
+    },
+    {
+      "id": 4,
+      "house_name": "Denver",
+      "name": "Moses Musau",
+      "mobile_number": "0727371199",
+      "email": "moses.musau@gmail.com",
+      "id_number": "26429031",
+      "age": "38 years",
+      "occupants": 2,
+      "visitors": "None"
+    },
+    {
+      "id": 5,
+      "house_name": "Rio",
+      "name": "James Kioko",
+      "mobile_number": "0722560390",
+      "email": "james.kioko@gmail.com",
+      "id_number": "14720551",
+      "age": "46 years",
+      "occupants": 6,
+      "visitors": "None"
+    },
+    {
+      "id": 6,
+      "house_name": "Helsinki",
+      "name": "Cyprian Kajos",
+      "mobile_number": "0768000284",
+      "email": "cyprian.kajos@gmail.com",
+      "id_number": "31458245",
+      "age": "33 years",
+      "occupants": 1,
+      "visitors": "None"
+    },
+    {
+      "id": 7,
+      "house_name": "Moscow",
+      "name": "Evans Taparwiyang'",
+      "mobile_number": "0746241925",
+      "email": "evans.taparkwiyang@gmail.com",
+      "id_number": " 32572894",
+      "age": "29 years",
+      "occupants": 3,
+      "visitors": "None"
+    },
+    {
+      "id": 8,
+      "house_name": "London",
+      "name": "Jamal Hassan",
+      "mobile_number": "0727371199",
+      "email": "jamal.hassan@gmail.com",
+      "id_number": "11644224",
+      "age": "57 years",
+      "occupants": 7,
+      "visitors": "None"
+    },
+    {
+      "id": 9,
+      "house_name": "Madrid",
+      "name": "Elias Wakhutu",
+      "mobile_number": "0719304062",
+      "email": "elias.wakhutu@gmail.com",
+      "id_number": "29542779",
+      "age": "42 years",
+      "occupants": 5,
+      "visitors": "None"
+    },
+    {
+      "id": 10,
+      "house_name": "Munich",
+      "name": "Alex Chelashaw",
+      "mobile_number": "0714612112",
+      "email": "alex.chelashaw@gmail.com",
+      "id_number": "30628331",
+      "age": "38 years",
+      "occupants": 3,
+      "visitors": "None"
+    }
+  ]
 }

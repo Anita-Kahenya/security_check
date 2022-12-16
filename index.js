@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const form = document.querySelector("#form")
     const input = document.createElement("input")
     input.id = ("id")
-    // input.type = "hidden"
+    input.type = "hidden"
     form.appendChild(input)
 
   fetch("http://localhost:3000/tenants")
@@ -69,15 +69,25 @@ document.addEventListener("DOMContentLoaded", function () {
     function addVisitor(e){
         e.preventDefault()
 
-        let id = document.querySelector("id").textContent;
-        let visit = document.querySelector("#visitors").textContent;
-        let visitorInput = document.querySelector("#add").value;
-        
-        console.log(visitorInput)
-    
+        let newVisitors = document.querySelector("#visitor")
+        let addInput = document.querySelector("#add").value;
+        let id = document.querySelector("#id").value;
+        console.log(addInput) 
 
+        newVisitors.innerHTML = addInput
 
-        visit = visitorInput
+        fetch(`http://localhost:3000/tenants/${id}`,{
+          method: "PATCH",
+          headers: {
+            'Content-Type': 'application/json'
+            
+          },
+          body: JSON.stringify({visitors:newVisitors.textContent})
+
+        })
+        .then(res => res.json())
+        .then(tenant => visitors.textContent = tenant.visitors)
+
     }
 
 });
