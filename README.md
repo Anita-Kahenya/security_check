@@ -4,7 +4,7 @@
 The purpose of this project is to come up with a security solution in apartments. I have created a website with a data base which has full information of the tenants living in the same apartment. When someone wants to get into the place, the security personell at the gate will look if he/she is a tenant in the residential home. If a visitor comes, security personell will enter their names and which house they are going into the system for referral.
 
 SCREENSHOTS
-![Screenshot from 2022-12-15 18-26-46](https://user-images.githubusercontent.com/113606952/208068354-b837ec5b-c1a2-4c48-8446-8d79f2fea163.png)
+![Screenshot from 2022-12-16 12-54-14](https://user-images.githubusercontent.com/113606952/208072450-d804d03e-1afd-4d1d-b985-d5c474d39a3a.png)
 ![Screenshot from 2022-12-15 18-27-09](https://user-images.githubusercontent.com/113606952/208068602-e021d70d-9ea9-47d9-b455-3117128e6f5e.png)
 ## SetUp Instruction
 ### Requirements
