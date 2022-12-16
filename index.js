@@ -88,6 +88,8 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(res => res.json())
         .then(tenant => visitors.textContent = tenant.visitors)
 
+        e.reset()
+
     }
 
 });
