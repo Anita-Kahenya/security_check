@@ -1,4 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.querySelector("#form")
+    const input = document.createElement("input")
+    input.id = ("id")
+    // input.type = "hidden"
+    form.appendChild(input)
+
   fetch("http://localhost:3000/tenants")
     .then((res) => res.json())
     .then(function (tenants) {
@@ -21,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const tenantAge = document.querySelector("#age");
           const occupants = document.querySelector("#occupants");
           const visitor = document.querySelector("#visitor");
+          
 
           tenantName.textContent = tenant.name;
           mobileNum.textContent = tenant.mobile_number;
@@ -29,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
           tenantAge.textContent = tenant.age;
           occupants.textContent = tenant.occupants;
           visitor.textContent = tenant.visitors;
+          input.value = tenant.id
         }
       });
 
@@ -41,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         for(let i = 0; i<item.length; i++){
             let span = item[i]
-            console.log(span)
+            
     
     
             if(span.innerHTML.toUpperCase().indexOf(searchValue)> -1){
@@ -53,4 +62,23 @@ document.addEventListener("DOMContentLoaded", function () {
     }
       }
     });
+
+    const btn = document.getElementById("button")
+    btn.addEventListener("click", addVisitor)
+
+    function addVisitor(e){
+        e.preventDefault()
+
+        let id = document.querySelector("id").textContent;
+        let visit = document.querySelector("#visitors").textContent;
+        let visitorInput = document.querySelector("#add").value;
+        
+        console.log(visitorInput)
+    
+
+
+        visit = visitorInput
+    }
+
 });
+

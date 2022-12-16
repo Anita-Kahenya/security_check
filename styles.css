@@ -76,11 +76,17 @@ body {
     color: rgb(113, 113, 124);
 }
 
+#form {
+    align-items: center;
+    display: flex;
+}
+
 footer {
     background-color: aliceblue;
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
+    margin-top: 2pc;
 
 }
 
